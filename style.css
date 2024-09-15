@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.logo-container{
+    width: 130px;
+}
+
+.nav-items{
+    padding-top: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;   
+    margin: 0px 40px 20px 40px;
+    margin-top: 0px;
+}
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items ul li{
+    margin-right: 40px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec-img{
+    
+    display: flex;
+    justify-content: end;
+}
+
+.sec-img img{
+    width: 100vh;
+    height: 400px;
+    justify-content: flex-end;
+}
+
+
+
+.mid-sec{
+    display: flex;
+    justify-content: center;
+}
+
+.mid-sec img{
+    width: 75vw;
+    height: auto;
+}
+
+.low-sec-1, .low-sec-2, .low-sec-3{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 30px auto;
+}
+
+
+
+#low-sec-1-img img, #low-sec-2-img img, #low-sec-3-img img{
+    width: 60vw;
+    
+}
+
+#low-sec-1-img img{
+    object-position: left;
+}
+
+#low-sec-1-img img, #low-sec-2-img img, #low-sec-3-img img{
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+}
+
+
+#low-sec-1-con, #low-sec-2-con, #low-sec-3-con{
+    width: 350px;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+
+#low-sec-1-con h3, #low-sec-2-con h3, #low-sec-3-con h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: rgb(107, 107, 107);
+}
+
+#low-sec-1-con h1, #low-sec-2-con h1, #low-sec-3-con h1{
+    padding-bottom: 20px;
+    font-size: 45px;
+    
+}
+
+.cou-card{
+    width:25vw;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.655);
+    margin: 10px;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 5px;
+    
+}
+
+.cou-card:hover{
+    border:5px solid black;
+    cursor: pointer;
+}
+
+.cou-logo{
+    padding: 5px;
+    width: 190px;
+}
+
+.cou-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cou-card img,h3,h5{
+    margin-bottom: 10px;
+}
+
+.cou-card img{
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cou-card h3,h5{
+    padding: 1px 10px 10px 10px
+}
+
+.filter-btn{
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
